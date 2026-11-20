@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Julia Orellano is a Visual Design student crafting visual stories and interactive experiences, from UX/UI to Branding and Editorial." />
+    <title>Julia Orellano</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/favicon.png" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="#about-section">Julia Orellano</a>
+            </div>
+            <div class="right">
+                <a href="index.html">Back to home</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about-section">
+            <h2>Resources for creatives!</h2>
+            <hr>
+
+            <h3>My design essays and research</h3>
+            <a href="https://juliaore.substack.com/" target="_blank">- Take me to the blog -</a>
+            <hr>
+
+            <h3>Design Cheatsheets</h3>
+            <p><em>More resources to come!</em></p>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Julia Orellano. With love from Argentina.</p>
+        </footer>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+</body>
+
+</html>
